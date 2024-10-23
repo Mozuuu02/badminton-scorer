@@ -1,0 +1,83 @@
+#banner{
+        margin: 0; /* Remove default margin */
+        height: 100vh; /* Set height to 100% of the viewport */
+        background-color: #1E201E; /* Change this to your desired color */
+        display: flex; /* Optional: Center content if needed */
+        justify-content: center; /* Optional: Center content */
+        align-items: center; /* Optional: Center content */
+}
+
+#container{
+    background-color: #3C3D37;
+    color:#ECDFCC;
+    height: 55%;
+    width: 40%;
+    margin:auto;
+    padding: 10px;
+    border: #ced89d;
+    border-radius: 5px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#form{
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column; 
+}
+
+#input-form{
+    width: 100%; /* Full width */
+    padding: 8px; /* Padding inside the input */
+    border: 1px solid #ccc; /* Border for the input */
+    border-radius: 4px; /* Slightly rounded corners */
+    font-size: 16px; /* Font size */
+    transition: border-color 0.3s; 
+}
+
+
+  
+
+#label{
+    padding: 2px;
+    margin-right: 8px;
+}
+
+#input{
+    background: transparent;
+    outline: none;
+    padding: 2px;
+}
+
+
+
+#btn{
+    padding: 4px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;;
+    color: #ecdac0;
+    background-color: #1E201E;
+    border: 2px solid #1E201E;
+}
+
+@media (max-width: 600px) {
+    #banner{
+        margin: 0;
+        height: 100vh;
+        width: 100%;
+    }
+    #container {
+        margin: 0%;
+        width: 80%;
+        height: 55%;
+    }
+
+    #form{
+        height: 75%;
+    }
+}
